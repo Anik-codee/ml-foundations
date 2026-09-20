@@ -1,0 +1,6 @@
+machine,temperature,rotation_speed,torque
+Motor-A,68,1450,40
+Motor-B,82,1320,52
+Motor-C,74,1510,46
+Motor-D,95,1200,61
+Motor-E,65,1600,38
