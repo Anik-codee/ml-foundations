@@ -12,19 +12,21 @@ This repository documents my foundational journey into Python programming, versi
 * **Mini Projects:** Building a modular Machine Sensor Summary Tool(`sensor_summary.py`).
 
 ## Folder Structure
+```text
 ml-foundations/
 │
 ├── .venv/                  # Isolated Python virtual environment (ignored by Git)
 ├── week1/                  # Week 1 learning modules and projects
-│   ├── basics.py      # Python variables and functions
-│   ├── conditions.py  # Conditional logic exercises
+│   ├── basics.py           # Python variables and functions
+│   ├── conditions.py       # Conditional logic exercises
 │   ├── lists_loops_and_dictionaries.py # Lists, loops, and dictionaries
-│   ├── csv_numpy.ipynb    # NumPy exploratory notebook
+│   ├── csv_numpy.ipynb     # NumPy exploratory notebook
 │   ├── sensor_data.csv     # Sample machine sensor dataset
 │   └── sensor_summary.py   # Machine sensor summary mini project
 ├── .gitignore              # Specifies intentionally untracked files to ignore
 ├── requirements.txt        # Project package dependencies
 └── README.md               # Repository overview documentation
+```
 
 ## Environment Setup
 1. Clone the repository:
