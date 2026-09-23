@@ -38,7 +38,7 @@ ml-foundations/
 
 3. Install required dependencies:
    ```bash
-pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 ## How to Run the Sensor Summary Tool
