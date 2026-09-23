@@ -7,7 +7,7 @@ This repository documents my foundational journey into Python programming, versi
 * **Environment & Version Control:** Setting up VS Code, virtual environments (`.venv`), `.gitignore`, and Git/GitHub workflows.
 * **Python Basics:** Variables, arithmetic, and custom functions (`basics.py`).
 * **Conditionals & Logic:** Boolean logic, comparison operators, and decision-making structures (`conditions.py`).
-* **Collections:** Lists, loops, list comprehensions, and dictionaries (`lists loops and dictionaries.py`).
+* **Collections:** Lists, loops, list comprehensions, and dictionaries (`lists_loops_and_dictionaries.py`).
 * **Data Processing & NumPy:** Parsing CSV files using Python's native modules and performing exploratory numerical computing with NumPy arrays (`csv_numpy.ipynb`).
 * **Mini Projects:** Building a modular Machine Sensor Summary Tool(`sensor_summary.py`).
 
@@ -16,10 +16,10 @@ ml-foundations/
 │
 ├── .venv/                  # Isolated Python virtual environment (ignored by Git)
 ├── week1/                  # Week 1 learning modules and projects
-│   ├── day2_basics.py      # Python variables and functions
-│   ├── day3_conditions.py  # Conditional logic exercises
-│   ├── day4_collections.py # Lists, loops, and dictionaries
-│   ├── day5_numpy.ipynb    # NumPy exploratory notebook
+│   ├── basics.py      # Python variables and functions
+│   ├── conditions.py  # Conditional logic exercises
+│   ├── lists_loops_and_dictionaries.py # Lists, loops, and dictionaries
+│   ├── csv_numpy.ipynb    # NumPy exploratory notebook
 │   ├── sensor_data.csv     # Sample machine sensor dataset
 │   └── sensor_summary.py   # Machine sensor summary mini project
 ├── .gitignore              # Specifies intentionally untracked files to ignore
@@ -31,6 +31,7 @@ ml-foundations/
    ```bash
    git clone [https://github.com/Anik-codee/ml-foundations.git](https://github.com/Anik-codee/ml-foundations.git)
    cd ml-foundations
+   ```
 2. Activate your virtual environment:
 * **Windows (PowerShell):** `.venv\Scripts\Activate.ps1`
 * **Windows (Command Prompt):** `.venv\Scripts\activate.bat`
@@ -38,6 +39,7 @@ ml-foundations/
 3. Install required dependencies:
    ```bash
 pip install -r requirements.txt
+   ```
 
 ## How to Run the Sensor Summary Tool
 To execute the modular machine sensor summary program from the repository root, run:
